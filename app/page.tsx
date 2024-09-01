@@ -3,11 +3,8 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
 
   return (
-    <main className="flex w-100% h-100% items-center bg-black  ">
-      <div>
-          <h1 className="text-white"> Bem vindo: Loja do Povo </h1>
-          <span>Fernando Gustavo</span>
-      </div>
+    <main className="sm:ml-28 p-2">
+        <h1 className="text-2x1 "> Loja do Povo- Dashboard </h1>
     </main>
   );
 }
